@@ -12,5 +12,10 @@ public class App {
         Weapon wpn = new Weapon("Hands and Feet", "Luffy likes to use his whole bodyy as his weapon");
         Pirate h = new Pirate("Luffy", 100, 100, df, wpn);
         System.out.println(h.toString());
+
+//        Person q = new Pirate("Q",1,1,df,wpn);
+//        Pirate x = (Pirate) new Person("E"); // Does not work will give a ClassCastException
+//        System.out.println(q.toString());
+//        System.out.println(x.toString());
     }
 }
